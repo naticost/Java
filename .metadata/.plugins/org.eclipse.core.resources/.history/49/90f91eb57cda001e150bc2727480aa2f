@@ -1,0 +1,22 @@
+package aula1_p;
+
+import java.util.Scanner;
+
+public class Teste {
+	public static void main (String[] args) {
+		Carro c1 = new Carro ();
+		Scanner into = new Scanner ( System.in);
+		
+		System.out.println("Digite o modelo: ");
+		c1.modelo=into.next();
+		
+		System.out.println("Digite uma marca: ");
+		c1.marca = into.next();
+		
+		System.out.println("Digite a cor do carro: ");
+		c1.valor = into.nextDouble();
+		
+		
+		//String - next, float - nextfloat, double-nextDouble, Integer-NextInt
+	}
+}

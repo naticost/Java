@@ -1,0 +1,10 @@
+package aula1_p;
+
+import java.util.Scanner;
+
+public class Teste {
+	public static void main (String[] args) {
+		Carro c1 = new Carro ();
+		Scanner into = new Scanner ( System.in);
+	}
+}
